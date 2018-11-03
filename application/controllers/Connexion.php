@@ -46,7 +46,7 @@ class Connexion extends CI_Controller {
     );
     if($this->connexions->connexion_bdd($data)){
       $p=$_POST['pseudo'];
-      $query = $this->db->query("SELECT type,link_alter,link_prez FROM users WHERE pseudo='".$p."' LIMIT 1");
+      $query = $this->db->query("SELECT type,link_alter,link_prez FROM users WHERE pseudo='$p' LIMIT 1");
       $row = $query->row();
       //session_start();
       $_SESSION=array(

@@ -127,7 +127,7 @@ _END
               <option value="polyvalence">polyvalence</option>
               <option value="puissance">puissance</option>
               <option value="controle">controle</option>
-              <option value="strenght">force</option>
+              <option value="strength">force</option>
               <option value="accuracy">précision</option>
               <option value="esquive">esquive</option>
               <option value="defense">defense</option>

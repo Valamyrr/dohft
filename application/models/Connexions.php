@@ -38,7 +38,7 @@ class Connexions extends CI_Model
     $row = $query->row();
     if(isset($row->pseudo)){return false;}
 
-    $query = $this->db->query("SELECT pseudo_w FROM whitelist WHERE pseudo_w=$d LIMIT 1");
+    $query = $this->db->query("SELECT pseudo_w FROM whitelist WHERE pseudo_w='$d' LIMIT 1");
     $row = $query->row();
     if(!isset($row->pseudo)){return false;}
 

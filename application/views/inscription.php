@@ -47,6 +47,7 @@
               <label class="col-md-4 control-label" for="email">Email</label>
               <div class="col-md-4">
               <input id="email" name="email" type="text" placeholder="chatmignon75@wanadoo.fr" class="form-control input-md">
+              <p class="help-block">Un seul mail vous sera envoyé : le mail d'inscription</p>
               </div>
             </div>
 

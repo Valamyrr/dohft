@@ -9,7 +9,7 @@
     <?php include('header.php');?>
     <div align="center" id="msg">
       <?php if(isset($data)){echo $data;}?>
-      Bienvenue sur le site auxiliaire de Dawn of Heroes !<br>
+      Bienvenue sur le site de fiches techniques de Dawn of Heroes !<br>
       <a href="http://dawnofheroes.forumactif.com/">www</a>
     </div>
   </body>
